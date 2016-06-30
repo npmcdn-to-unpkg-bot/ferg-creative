@@ -189,14 +189,10 @@ hr {
   border-top: 0;
   margin: 1.5em 0; }
 
-.dayTime {
-  background-color: #fff;
-  transition: background-color 1s ease;
-  color: #000; }
+.grid-item {
+  width: 200px; }
 
-.nightTime {
-  background-color: #414141;
-  transition: background-color 1s ease;
-  color: #fff; }
+.grid-item--width2 {
+  width: 400px; }
 
 /*# sourceMappingURL=app.css.map */
