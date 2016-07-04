@@ -27,20 +27,19 @@
 
 	</head>
 	<body ng-app="myApp">
+
 		<div class="container" ng-controller="MainController">
-			<div>
-				<section class="grid-wrap">
-					<h1>{{ title }}</h1>
+			<h1>{{ title }}</h1>
+				<section class="grid-wrap" >
 					<ul class="grid swipe-down" id="grid">
-						<li>
-							<a href="#" ng-repeat="product in products">
-								<img src="img/dummy.png" alt="dummy">
+						<li ng-repeat="product in products">
+							<a ng-href="#">
+								<img ng-src="{{ image }}" alt="dummy">
 								<h3>{{ product.name }}</h3>
 							</a>
 						</li>
 					</ul>
 				</section>
-			</div>
 		</div>
 		<!-- /container -->
 

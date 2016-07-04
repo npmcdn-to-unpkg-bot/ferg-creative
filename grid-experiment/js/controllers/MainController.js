@@ -4,6 +4,30 @@ app.controller('MainController', ['$scope', function($scope) {
   $scope.products = [
   {
     name: 'The Book of Trees',
+    image: 'img/dummy.png'
+  },
+  {
+    name: 'Program or be Programmed',
+    cover: 'img/program-or-be-programmed.jpg'
+  },
+  {
+    name: 'The Book of Trees',
+    cover: 'img/the-book-of-trees.jpg'
+  },
+  {
+    name: 'Program or be Programmed',
+    cover: 'img/program-or-be-programmed.jpg'
+  },
+  {
+    name: 'The Book of Trees',
+    cover: 'img/the-book-of-trees.jpg'
+  },
+  {
+    name: 'Program or be Programmed',
+    cover: 'img/program-or-be-programmed.jpg'
+  },
+  {
+    name: 'The Book of Trees',
     cover: 'img/the-book-of-trees.jpg'
   },
   {
@@ -33,6 +57,38 @@ app.controller('MainController', ['$scope', function($scope) {
   {
     name: 'Program or be Programmed',
     cover: 'img/program-or-be-programmed.jpg'
-  }
+  },
+  {
+    name: 'The Book of Trees',
+    cover: 'img/the-book-of-trees.jpg'
+  },
+  {
+    name: 'The Book of Trees',
+    cover: 'img/the-book-of-trees.jpg'
+  },
+  {
+    name: 'Program or be Programmed',
+    cover: 'img/program-or-be-programmed.jpg'
+  },
+  {
+    name: 'The Book of Trees',
+    cover: 'img/the-book-of-trees.jpg'
+  },
+  {
+    name: 'Program or be Programmed',
+    cover: 'img/program-or-be-programmed.jpg'
+  },
+  {
+    name: 'The Book of Trees',
+    cover: 'img/the-book-of-trees.jpg'
+  },
+  {
+    name: 'Program or be Programmed',
+    cover: 'img/program-or-be-programmed.jpg'
+  },
+  {
+    name: 'The Book of Trees',
+    cover: 'img/the-book-of-trees.jpg'
+  },
 ];
 }]);
